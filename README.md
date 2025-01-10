@@ -1,8 +1,13 @@
 TIC TAC TOE is old game..
+
 but here is new..
+
 Adopted for SrBinOS and will run in HelenOS where is, also, tested!
+
 Copiright was coded in same game.. :)
+
 Do waht you wish with this game.
+
 Make it better and share with us!
 
 ![start](https://github.com/user-attachments/assets/c9e53eb6-3aab-4313-b2f9-81e6f3298f3f)
