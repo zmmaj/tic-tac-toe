@@ -6,7 +6,7 @@ Adopted for SrBinOS and will run in HelenOS where is, also, tested!
 
 Copiright was coded in same game.. :)
 
-Do waht you wish with this game.
+Do, what you wish, with this game.
 
 Make it better and share with us!
 
