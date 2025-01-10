@@ -19,7 +19,6 @@ Make it better and share with us!
 
  Copy/Paste whole  downloaded folder "tik_tak" to "/uspace/app/"
  Add line in "meson.build" located at "/uspace/app/meson.build"
-	'testwrit',
  
 	'tetris',
  
