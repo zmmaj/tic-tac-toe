@@ -29,6 +29,7 @@ Make it better and share with us!
 	'top',
  
 Now, save all... compile HelenOS, start HelenOS and in terminal type tik_tak
+
 play !
 
 enjou !
