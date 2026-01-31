@@ -1,30 +1,30 @@
-/** @addtogroup tik_tak
+/** @addtogroup tik-tak-toe
  * @{
  */
 /** @file
  */
 
-#include <types/common.h>
-#include <io/console.h>
-#include <async.h>
-#include <stdbool.h>
 
 typedef struct {
-	sysarg_t ws_row;
-	sysarg_t ws_col;
-} winsize_t;
+    int red;
+    int kolona;
+} Potez;
 
-extern console_ctrl_t *console;
-extern winsize_t winsize;
+#define POTEZ_RACUNARA 'O'
+#define POTEZ_IGRACA   'X'
+#define SIZE 3
 
-extern void moveto(sysarg_t r, sysarg_t c);
-extern void clear_screen(void);
-extern void scr_clear(void);
-extern void scr_end(void);
-extern void scr_init(void);
-extern void scr_msg(char *, bool);
-
-
+/* Funkcije za Igru Tik-Tak-Toe */
+Potez najboljiPotez(char tabla[3][3]);
+bool imaPoteza(char tabla[3][3]);
+int vrednost(char tabla[3][3]);
+int minimax(char tabla[3][3], int dubina, bool maks);
+void prikaziTablu(char tabla[3][3]);
+void inicijalizuj(char tabla[3][3]);
+bool krajIgre(char tabla[3][3]);
+void objaviPobednika(char tabla[3][3]);
+void igraTicTacToe(int koIgra);
+void prikaziUputstvo(void);
 
 
 /** @}
